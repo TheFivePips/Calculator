@@ -1,0 +1,165 @@
+.grid-wrapper{
+display: flex;
+/* justify-content: center; */
+/* align-content: center; */
+margin: 2rem;
+border: 2px solid black;
+border-radius: 5px;
+width: 200px;
+height: 300px;
+
+}
+
+.grid-container{
+    display: grid;
+    width: 200px;
+    height: 300px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6,1fr);
+    justify-items: center;
+    align-items: center;
+   
+}
+/* making these explicit instead of shorthand for practice */
+.display {
+    grid-column-start:1 ;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid black;
+    padding: 1rem 4rem;
+    margin: 15px;    
+}
+.a-c{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    justify-self: center;
+    align-self: center
+    
+}
+.equals{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    justify-self: center;
+    align-self: center;
+}
+.zero{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    justify-self: center;
+    align-self: center
+}
+
+.add{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    justify-self: center;
+    align-self: center
+}
+.subtract{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    justify-self: center;
+    align-self:center
+}
+.multiply{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    justify-self: center;
+    align-self: center
+}
+.divide{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+    align-self: center
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    justify-self: center;
+    align-self: center
+}
+.two{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    justify-self: center;
+    align-self: center
+}
+.three{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    justify-self: center;
+    align-self: center
+}
+.four{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    justify-self: center;
+    align-self: center
+}
+.five{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    justify-self: center;
+    align-self: center
+}
+.six{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    justify-self: center;
+    align-self: center
+}
+
+.seven{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+    align-self: center
+}
+.eight{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+    align-self: center
+}
+.nine{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+    align-self: center
+}
