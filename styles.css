@@ -18,8 +18,10 @@ height: 300px;
     grid-template-rows: repeat(6,1fr);
     justify-items: center;
     align-items: center;
+    background-color:darkslategray;
    
 }
+
 /* making these explicit instead of shorthand for practice */
 .display {
     grid-column-start:1 ;
@@ -31,14 +33,20 @@ height: 300px;
     border: 2px solid black;
     padding: 1rem 4rem;
     margin: 15px;    
+    background-color: antiquewhite;
 }
 .a-c{
     grid-column-start:1 ;
     grid-column-end: 2;
     grid-row-start: 6;
     grid-row-end: 7;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+
     
 }
 .equals{
@@ -46,16 +54,24 @@ height: 300px;
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 7;
-    justify-self: center;
-    align-self: center;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
 }
 .zero{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 6;
     grid-row-end: 7;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
 }
 
 .add{
@@ -63,80 +79,121 @@ height: 300px;
     grid-column-end: 5;
     grid-row-start: 6;
     grid-row-end: 7;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
 }
 .subtract{
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 6;
-    justify-self: center;
-    align-self:center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
 }
 .multiply{
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 5;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
 }
 .divide{
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 4;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
 }
 .one{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 6;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    
 }
 .two{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 6;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey
 }
 .three{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 6;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey
 }
 .four{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey
 }
 .five{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey
 }
 .six{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey
 }
 
 .seven{
@@ -144,22 +201,35 @@ height: 300px;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey
 }
 .eight{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey
 }
 .nine{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
-    justify-self: center;
-    align-self: center
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey
+    
 }
