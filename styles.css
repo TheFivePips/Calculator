@@ -22,13 +22,14 @@ height: 300px;
    
 }
 
-/* making these explicit instead of shorthand for practice. wiill make shorthand during refactoring phase for additional practice and clean up */
+/* making these explicit instead of shorthand for practice. will make shorthand during refactoring phase for additional practice and clean up */
 
 .display {
-    grid-column-start:1 ;
+    /* grid-column-start:1 ;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 2; */
+    grid-area: 1/1/2/5;
     justify-self: center;
     align-self: center;
     border: 2px solid black;
@@ -39,10 +40,11 @@ height: 300px;
     background-color: antiquewhite;
 }
 .a-c{
-    grid-column-start:1 ;
+    /* grid-column-start:1 ;
     grid-column-end: 2;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 7; */
+    grid-area: 6/1/7/2;
     height: 50px;
     width: 50px;
     display: flex;
@@ -53,10 +55,11 @@ height: 300px;
     
 }
 .equals{
-    grid-column-start: 3;
+    /* grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 7; */
+    grid-area: 6/3/7/3;
     height: 50px;
     width: 50px;
     display: flex;
@@ -65,10 +68,11 @@ height: 300px;
     background-color: coral;
 }
 .zero{
-    grid-column-start: 2;
+    /* grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 7; */
+    grid-area: 6/2/7/3;
     height: 50px;
     width: 50px;
     display: flex;
@@ -78,10 +82,11 @@ height: 300px;
 }
 
 .add{
-    grid-column-start: 4;
+    /* grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 7; */
+    grid-area: 6/4/7/5;
     height: 50px;
     width: 50px;
     display: flex;
@@ -90,10 +95,11 @@ height: 300px;
     background-color: orange;
 }
 .subtract{
-    grid-column-start: 4;
+    /* grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-end: 6; */
+    grid-area: 5/4/6/5;
     height: 50px;
     width: 50px;
     display: flex;
@@ -102,10 +108,11 @@ height: 300px;
     background-color: orange;
 }
 .multiply{
-    grid-column-start: 4;
+    /* grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-end: 5; */
+    grid-area: 4/4/5/5;
     height: 50px;
     width: 50px;
     display: flex;
@@ -114,10 +121,11 @@ height: 300px;
     background-color: orange;
 }
 .divide{
-    grid-column-start: 4;
+    /* grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 4; */
+    grid-area: 3/4/4/5;
     height: 50px;
     width: 50px;
     display: flex;
@@ -126,10 +134,11 @@ height: 300px;
     background-color: orange;
 }
 .one{
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-end: 6; */
+    grid-area: 5/1/6/2;
     height: 50px;
     width: 50px;
     display: flex;
@@ -139,10 +148,11 @@ height: 300px;
     
 }
 .two{
-    grid-column-start: 2;
+    /* grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-end: 6; */
+    grid-area: 5/2/6/3;
     height: 50px;
     width: 50px;
     display: flex;
@@ -151,10 +161,11 @@ height: 300px;
     background-color: grey
 }
 .three{
-    grid-column-start: 3;
+    /* grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-end: 6; */
+    grid-area: 5/3/6/4;
     height: 50px;
     width: 50px;
     display: flex;
@@ -163,10 +174,12 @@ height: 300px;
     background-color: grey
 }
 .four{
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-end: 5; */
+    grid-area: 4/1/5/2;
+
     height: 50px;
     width: 50px;
     display: flex;
@@ -175,10 +188,12 @@ height: 300px;
     background-color: grey
 }
 .five{
-    grid-column-start: 2;
+    /* grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-end: 5; */
+    grid-area: 4/2/5/3;
+
     height: 50px;
     width: 50px;
     display: flex;
@@ -187,10 +202,12 @@ height: 300px;
     background-color: grey
 }
 .six{
-    grid-column-start: 3;
+    /* grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-end: 5; */
+    grid-area: 4/3/5/4;
+
     height: 50px;
     width: 50px;
     display: flex;
@@ -200,10 +217,11 @@ height: 300px;
 }
 
 .seven{
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 4; */
+    grid-area: 3/1/4/2;
     height: 50px;
     width: 50px;
     display: flex;
@@ -212,10 +230,11 @@ height: 300px;
     background-color: grey
 }
 .eight{
-    grid-column-start: 2;
+    /* grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 4; */
+    grid-area: 3/2/4/3;
     height: 50px;
     width: 50px;
     display: flex;
@@ -224,10 +243,11 @@ height: 300px;
     background-color: grey
 }
 .nine{
-    grid-column-start: 3;
+    /* grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 4; */
+    grid-area: 3/3/4/4;
     height: 50px;
     width: 50px;
     display: flex;
