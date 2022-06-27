@@ -22,7 +22,8 @@ height: 300px;
    
 }
 
-/* making these explicit instead of shorthand for practice */
+/* making these explicit instead of shorthand for practice. wiill make shorthand during refactoring phase for additional practice and clean up */
+
 .display {
     grid-column-start:1 ;
     grid-column-end: 5;
